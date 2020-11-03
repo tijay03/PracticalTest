@@ -1,0 +1,60 @@
+body {
+  font-family: Arial;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+/*Header*/
+.img-logo{
+  float:left;
+  width:130px;
+  height:30px;
+  padding-left: 20px;
+}
+
+.navbar {
+  width: 100%;
+  overflow: auto;
+  background-color: white;
+  text-align: center;
+}
+
+.navbar a {
+  float: center;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.navbar a:hover {
+  background-color: #4ca9f4;
+}
+
+/*Sections*/
+.img-section{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.colored{
+  background-color:#4ca9f4;
+}
+
+#relative {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align:center;
+}
+
+#absolute {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
